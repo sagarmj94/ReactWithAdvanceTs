@@ -4,16 +4,14 @@ import Input from "./components/Inputs";
 function App() {
   return (
     <main>
-      {/* <Input id="name" label="Your name" type="text" />
-      <Input id="age" label="Your age" type="number" /> */}
+      <Input id="name" label="Your name" type="text" />
+      <Input id="age" label="Your age" type="number" />
 
       <p>
-        <Button el="button">A Button</Button>
+        <Button disabled>A Button</Button>
       </p>
       <p>
-        <Button el="anchor" href="https://google.com">
-          A Button
-        </Button>
+        <Button href="https://google.com">A Button</Button>
       </p>
     </main>
   );
